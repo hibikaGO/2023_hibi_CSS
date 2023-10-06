@@ -3,6 +3,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 a{
     text-decoration: none;
     color: #00277e;
@@ -19,25 +20,26 @@ a{
 }
 
 .content{
-    position: relative;
+    margin-top: 20px;
 }
 
+
 .content-img {
-    position: absolute;
-    top: 80px;
-    left: 50%;
+    margin: 0 0 0 auto;
     width: 50vw;
     height: auto;
     z-index: 10;
+    display: block;
 }
 
 .content-ttl{
-    position:absolute;
-    top:300px
+    position: relative;
+    top: -125px;
+    z-index: -1;
 }
 
 .content-ttl-text{
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
 }
@@ -45,5 +47,6 @@ a{
 .content-ttl-box{
     background-color: #00277e;
     width: 70vw;
-    height: 160px;
+    height: 100px;
 }
+
